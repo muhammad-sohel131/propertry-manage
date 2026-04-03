@@ -55,7 +55,7 @@ export function OurServices() {
         <div className="text-center mb-14">
           <h2 className="text-2xl sm:text-[32px] font-bold text-black mb-4">
             Our{' '}
-            <span className="text-[#E8384F]">Service</span>
+            <span className="text-[var(--brandColor)]">Service</span>
           </h2>
           <p className="text-sm text-black max-w-2xl mx-auto font-medium">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
