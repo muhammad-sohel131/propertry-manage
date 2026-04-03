@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { ArrowRight, Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import PrimaryBtn from '../shared/PrimaryBtn'
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const navLinks = [
@@ -59,10 +60,7 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center">
-            <button className="bg-[var(--brandColor)] mt-2 cursor-pointer text-white px-6 py-[18px] rounded-[5px] font-bold text-sm flex items-center">
-              Schedule A Meeting
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </button>
+            <PrimaryBtn text="Schedule A Meeting" />
           </div>
 
           {/* Mobile menu button */}
