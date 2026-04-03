@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 
-import { Poppins, Plus_Jakarta_Sans } from "next/font/google";
+import { Poppins, Plus_Jakarta_Sans, Manrope } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 
 const poppins = Poppins({
@@ -14,6 +14,11 @@ const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["400", "700"],
   variable: "--font-plus-jakarta",
+});
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['200','300','400','500','600','700','800'],
+  variable: '--font-manrope',
 });
 
 export const metadata: Metadata = {
@@ -27,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${plusJakarta.variable} h-full antialiased`}>
+    <html lang="en" className={`${poppins.variable} ${plusJakarta.variable} ${manrope.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <Header />
         {children}

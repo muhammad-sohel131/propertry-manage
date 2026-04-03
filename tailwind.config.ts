@@ -13,6 +13,7 @@ const config: Config = {
       fontFamily: {
         poppins: ['var(--font-poppins)', 'sans-serif'],
         plusJakarta: ['var(--font-plus-jakarta)', 'sans-serif'],
+        manrope: ['var(--font-manrope)', 'sans-serif'],
       },
     },
   },
