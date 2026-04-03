@@ -1,4 +1,5 @@
 import { HeroSection } from "@/components/home/Hero";
+import { OurServices } from "@/components/home/OurServices";
 import { TrustedBy } from "@/components/home/TrustedBy";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <TrustedBy />
+      <OurServices />
     </main>
   );
 }
