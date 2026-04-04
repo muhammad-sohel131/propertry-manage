@@ -91,7 +91,7 @@ export function HeroSection() {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-3xl mx-auto text-center mt-[165px] mb-[90px]">
+      <div className="relative z-10 max-w-3xl mx-auto text-center lg:mt-[165px] mt-4 lg:mb-[90px] mb-4">
         <h1 className="text-4xl sm:text-5xl font-bold text-[#000] mb-2">
           Airbnb Assistants For
         </h1>
