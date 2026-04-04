@@ -4,6 +4,7 @@ import { OurServices } from "@/components/home/OurServices";
 import { OurTools } from "@/components/home/OutTools";
 import { PricingSection } from "@/components/home/PricingSection";
 import { TrustedBy } from "@/components/home/TrustedBy";
+import { WhyChooseUs } from "@/components/home/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PricingSection />
       <OurTools />
       <GettingStarted />
+      <WhyChooseUs />
     </main>
   );
 }

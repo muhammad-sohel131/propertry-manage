@@ -46,12 +46,12 @@ export function Header() {
           <Image src="/logo.png" alt='logo' width={125} height={45} />
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex lg:space-x-8 space-x-4">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-[18px] transition-colors ${link.active ? 'text-[var(--brandColor)] border-b-1 border-[var(--brandColor)] pb-1 font-bold' : 'text-[#1E1E1E] font-normal'}`}
+                className={`lg:text-[18px] text-[16px] transition-colors ${link.active ? 'text-[var(--brandColor)] border-b-1 border-[var(--brandColor)] pb-1 font-bold' : 'text-[#1E1E1E] font-normal'}`}
               >
                 {link.name}
               </a>
