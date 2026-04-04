@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 export function HeroSection() {
   return (
-    <section className="relative w-full min-h-[600px] bg-[#FAFAFA] overflow-hidden flex flex-col items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
+    <section id="home" className="relative w-full min-h-[600px] bg-[#FAFAFA] overflow-hidden flex flex-col items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
       {/* Grid Background */}
       <div className="absolute inset-0 bg-grid-pattern opacity-60 pointer-events-none" />
 

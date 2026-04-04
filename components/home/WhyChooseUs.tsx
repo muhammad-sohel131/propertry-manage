@@ -11,7 +11,7 @@ const reasons = [
 ];
 export function WhyChooseUs() {
   return (
-    <section className="w-full px-4 sm:px-6 lg:px-8 py-5">
+    <section id="about" className="w-full px-4 sm:px-6 lg:px-8 py-5">
       <div className="cs-container mx-auto bg-[#FDEBF0] border border-[#F8BECD] rounded-[33px] px-8 md:px-12 lg:px-16 py-8 overflow-hidden relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-10 lg:gap-8 items-center">
           {/* Left Column - Content */}

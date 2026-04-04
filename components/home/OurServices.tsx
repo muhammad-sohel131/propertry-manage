@@ -49,7 +49,7 @@ const services: ServiceCard[] = [
 
 export function OurServices() {
   return (
-    <section className="w-full pb-[75px] mt-[50px] px-4 sm:px-6 lg:px-8">
+    <section id="services" className="w-full pb-[75px] mt-[50px] px-4 sm:px-6 lg:px-8">
       <div className="cs-container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-14">
