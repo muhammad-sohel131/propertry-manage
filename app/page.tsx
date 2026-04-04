@@ -1,3 +1,4 @@
+import { ClientReviews } from "@/components/home/ClientReview";
 import { GettingStarted } from "@/components/home/GettingStarted";
 import { HeroSection } from "@/components/home/Hero";
 import { OurServices } from "@/components/home/OurServices";
@@ -16,6 +17,7 @@ export default function Home() {
       <OurTools />
       <GettingStarted />
       <WhyChooseUs />
+      <ClientReviews />
     </main>
   );
 }
