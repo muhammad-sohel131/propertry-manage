@@ -45,7 +45,7 @@ const plans = [
 export function PricingSection() {
   const [isYearly, setIsYearly] = useState(false)
   return (
-    <section className="w-full bg-white py-16  px-4 sm:px-6 lg:px-8">
+    <section id='pricing' className="w-full bg-white py-16  px-4 sm:px-6 lg:px-8">
       <div className="cs-container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-10">
