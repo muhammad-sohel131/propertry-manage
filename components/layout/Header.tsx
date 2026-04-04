@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { ArrowRight, Menu, X } from 'lucide-react'
 import Image from 'next/image'
 import PrimaryBtn from '../shared/PrimaryBtn'
+import Link from 'next/link'
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -76,7 +77,9 @@ export function Header() {
       <div className="cs-container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Image src="/logo.png" alt='logo' width={125} height={45} />
+          <Link href="/" className="flex items-center">
+            <Image src="/logo.png" alt='logo' width={125} height={45} />
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex lg:space-x-8 space-x-4">
